@@ -1,0 +1,106 @@
+body {
+    background-color: #9e5f00;
+    font-family: Arial;
+	font-size: 30px;
+	 text-align: center;
+      text-shadow: 2px 2px 3px #ffffff;
+}
+#banner{
+      background-color: rgba(252, 252, 252, 0.85);
+    color: rgb(8, 161, 221);
+    padding: 40px;
+    text-align: center;
+    font-style: italic;
+      font-weight: bold;
+      font-size: 25px;
+      text-shadow: 2px 2px 3px #ffffff;
+}
+#contenedor {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(59, 194, 194);
+	background-image: url(img/banner/contenedor.jpg);
+    color: #fffefe;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px #ffaa2c;
+}
+
+#encabezado {
+    background-color: #f8b842;
+    color: rgb(0, 0, 0);
+	font-size: 20px;
+    padding:6px;
+	 text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 600;
+       text-shadow: 2px 2px 3px #ffffff;
+}
+
+#encabezado ul {
+    list-style:none;
+    padding: 8px;
+    
+}
+
+#encabezado li {
+    display: inline;
+    margin-right: 40px;
+	margin-left: 40px;
+  
+}
+
+#encabezado a {
+    color: rgb(0, 0, 0);
+ border: 4px solid rgb(70, 192, 240);
+    padding: 10px;
+    display: inline-block;
+      border-radius: 8px;
+       text-shadow: 2px 2px 3px #ffffff;
+       box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#centro {
+    padding: 40px;
+    text-align: center;
+   
+}
+
+.cajas {
+    width: 28%;
+    min-height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #f7ac23;
+     
+}
+
+.cajas h3 {
+    color: #f19e31;
+	font-size: 25px;
+     text-shadow: 2px 2px 3px #ffffff;
+     font-weight: 1200;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.cajas p {
+	 color: #000000;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+     text-shadow: 2px 2px 3px #bbbbbb;
+	
+}
+
+#footer {
+    background-color: #172b4d;
+    color: white;
+	font-size: 20px;
+    padding: 3px;
+    text-align: center;
+     text-shadow: 2px 2px 3px #ffa366;
+}
